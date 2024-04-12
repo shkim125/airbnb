@@ -10,6 +10,9 @@
 -- | Avalon Park            |
 -- | Avondale               |
 -- | Belmont Cragin         |
--- | Beverly                |
+-- | Beverly               
 
-
+SELECT neighborhood
+FROM listings
+GROUP BY neighborhood
+ORDER BY neighborhood ASC;
